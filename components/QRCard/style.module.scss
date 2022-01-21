@@ -1,0 +1,30 @@
+
+.card {
+  background: #FFFFFF;
+  box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
+  border-radius: 20px;
+  padding: 16px 16px 40px;
+  text-align: center;
+  width: 320px;
+
+  .image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 24px;
+  }
+
+  .title {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    color: #1F314F;
+    margin-bottom: 16px;
+  }
+
+  .description {
+    font-size: 15px;
+    line-height: 19px;
+    color: #7D889E;
+    padding: 0 16px;
+  }
+}
