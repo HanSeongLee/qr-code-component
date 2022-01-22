@@ -59,7 +59,10 @@ export default function Home() {
             QR Code Component
           </h1>
           <div className={styles.container}>
-            <QRCard/>
+            <QRCard image={'/img/image-qr-code.png'}
+                    title={'Improve your front-end skills by building projects'}
+                    description={'Scan the QR code to visit Frontend Mentor and take your coding skills to the next level'}
+            />
           </div>
         </main>
       </>

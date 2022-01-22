@@ -1,18 +1,18 @@
 import React from "react";
 import styles from './style.module.scss';
 
-const QRCard = () => {
+const QRCard = ({ image, title, description }) => {
     return (
         <div className={styles.card}>
             <img className={styles.image}
-                 src={'/img/image-qr-code.png'}
+                 src={image}
                  alt={'QR code'}
             />
             <h2 className={styles.title}>
-                Improve your front-end skills by building projects
+                {title}
             </h2>
             <p className={styles.description}>
-                Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+                {description}
             </p>
         </div>
     );
